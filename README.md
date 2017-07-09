@@ -1,7 +1,7 @@
 # dog-or-cat
-Distinguishing between images of dogs and cats using a convolutional neural network.
+Distinguishing between images of dogs and cats using a convolutional neural network. This model achieves 87% accuracy on the validation set.
 
-Examples with pictures of my friend's dog Tesla and a couple random images of cats:
+Here are a few examples with my friend's dog Tesla and a couple random images of cats:
 
 ![alt text](datasets/example_set/examples/tesla_4.jpg)
 Dog with probability 0.99901474
@@ -16,7 +16,7 @@ Dog with probability 0.99901962
 Dog with probability 0.99995852
 
 ![alt text](datasets/example_set/examples/tesla_8.jpg)
-Dog with probability 0.00600681
+Dog with probability 0.00600681 (incorrect)
 
 ![alt text](datasets/example_set/examples/tesla_2.jpg)
 Dog with probability 0.97458273
@@ -25,7 +25,7 @@ Dog with probability 0.97458273
 Dog with probability 1.0
 
 ![alt text](datasets/example_set/examples/tesla_5.jpg)
-Dog with probability 0.45387861
+Dog with probability 0.45387861 (incorrect)
 
 ![alt text](datasets/example_set/examples/tesla_3.jpg)
 Dog with probability 0.91537327
